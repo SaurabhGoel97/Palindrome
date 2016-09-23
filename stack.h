@@ -1,12 +1,11 @@
-//   File:    stack.h
-//   Author:  Linda Day adapted from the text
-//   Course:  CSC 136
-//   Date:    Spring 2015
-//   Purpose: The file contains the definition for a stack class implemented as a linked list
+//Author:  Patrick Gagliano
+//File:    stack.h
+//Purpose: The file contains the definition for a stack class implemented as a linked list
 #include <iostream>
-using namespace std;
 #ifndef STACK_H
 #define STACK_H
+
+using namespace std;
 
 template <class stackElem>
 class stack
@@ -73,11 +72,5 @@ class stack
        stackNode * topPtr;
 };
 
-
 #include "stack.cpp"
 #endif
-
-
-
-
-
