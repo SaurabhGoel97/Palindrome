@@ -1,10 +1,7 @@
-//	File:	queue.h
-//	Author:	Linda Day
-//	Course:	CSC 136
-//	Date:	Spring 2015
-//	Purpose: This file contains the specification for the generic queue
-//		 class and all its operations.  This queue is implemented as a
-//               linked structure
+//Author:  Patrick Gagliano	
+//File:	   queue.h
+//Purpose: This file contains the specification for the generic queue class and all its operations.  
+//         This queue is implemented as a linked structure.
 #ifndef QUEUE_H
 #define QUEUE_H
 #include <iostream>
