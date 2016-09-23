@@ -1,11 +1,6 @@
-//  File:   application.cpp
-//  Author: John Bogunovich and 
-//          Patrick Gagliano
-//  Course: CSC 136
-//  Date:   Spring 2015
-//  Purpose: to test strings to see if they are palindromes 
-//           by using stacks and queues
-
+//Author:  Patrick Gagliano
+//File:    application.cpp
+//Purpose: Will test strings to see if they are palindromes by using stacks and queues
 #include "stack.h"
 #include "queue.h"
 #include <iostream>
@@ -95,7 +90,6 @@ string strip(string s)
   return ss;
 }
 
-
 //Name: fillData
 //Description: fills up stack and queue with stripped line
 //Parameters: stripped line, stack, queue
@@ -125,6 +119,7 @@ void fillData(string stripLine, stack<string> &stk, queue<string> &que)
 
  return;
 }
+
 //Name: testString
 //Description: process string to see if it is a palindrome
 //Parameters: stripped line, stack, queue
