@@ -1,9 +1,6 @@
-//   File:    stack.cpp
-//   Author:  Patrick Gagliano and  
-//            John Bogunovich
-//   Course:  CSC 136
-//   Date:    Spring 2015
-//   Purpose: The file contains the definition for a stack class implemented as an array
+//Author: Patrick Gagliano
+//File:    stack.cpp
+//Purpose: The file contains the definition for a stack class implemented as an array.
 #include "stack.h"
 #include <iostream>
 
@@ -155,5 +152,4 @@ void stack<stackElem>::clear()
 }
 
 #include "stack.h"
-
 #endif
