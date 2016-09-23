@@ -1,12 +1,7 @@
-//  File:   queue.cpp
-//  Authors: John Bogunovich and
-//           Patrick Gagliano
-//  Course: CSC 136
-//  Date:   Spring 2015
-//  Purpose: This file contains the specification for the generic queue
-//           class and all its operations.  This queue is implemented as a
-//           linked structure
-
+//Author:  Patrick Gagliano
+//File:    queue.cpp
+//Purpose: This file contains the specification for the generic queue class and all its operations.  
+//	   This queue is implemented as a linked structure.
 #include "queue.h"
 #include <iostream>
 
@@ -15,7 +10,7 @@ using namespace std;
 #ifndef QUEUE_CPP
 #define QUEUE_CPP
 
-  //constructor
+  //Constructor
   template <class Type>
   queue<Type>::queue()
   {
@@ -23,7 +18,7 @@ using namespace std;
     rearPtr = NULL;
   }
     
-  //copy constructor
+  //Copy constructor
   template <class Type>
   queue<Type>::queue(const queue<Type> &rhs)
   {
@@ -33,14 +28,14 @@ using namespace std;
     *this = rhs;
   }
 
-  //destructor
+  //Destructor
   template <class Type>
   queue<Type>::~queue()
   {
     clear();
   }
 
-  //overload of assignment operator
+  //Overload of assignment operator
   template <class Type>
   queue<Type> & queue<Type>::operator=(const queue &rhs)
   {
